@@ -22,7 +22,7 @@ void merge(int l, int r) {
     merge(m + 1, r);
     int buf[maxn];
     int xl = l;
-    int xr = m + 1;
+    int xr = m + 1;//todo
     int cur = 0;
     while (r - l + 1 != cur) {
         if (xl > m)
