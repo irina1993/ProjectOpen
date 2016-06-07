@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 // наш массив
-int array[100];
+int array[1000];
 // сортировка
 void*Sort(int col) 
 { 
